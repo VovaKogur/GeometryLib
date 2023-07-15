@@ -1,6 +1,6 @@
 ﻿namespace GeometryLib.Interfaces
 {
-    public interface ICircle :IShape
+    public interface ICircle : IShape
     {
     }
 }

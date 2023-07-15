@@ -1,9 +1,4 @@
 ﻿using GeometryLib.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GeometryLib
 {
@@ -11,7 +6,7 @@ namespace GeometryLib
     {
         public static double CalculateArea(IShape shape)
         {
-           return  shape.CalculateArea();
+            return shape.CalculateArea();
         }
     }
 }

@@ -66,9 +66,9 @@ namespace GeometryLib_Test
             double sideB = 4;
             double sideC = 5;
             Trinagle triangle = new Trinagle(sideA, sideB, sideC);
-           
+
             bool isRightAngled = triangle.IsRightAngled();
-            
+
             Assert.IsTrue(isRightAngled);
         }
         [TestMethod]
